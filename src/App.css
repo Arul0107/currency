@@ -1,0 +1,54 @@
+/* src/App.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .currency-converter {
+    background-color: #ffffff; /* Light background */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .currency-converter h1 {
+    color: #007bff; /* Primary color */
+    text-align: center;
+  }
+  
+  .input-container label {
+    color: #ffffff; /* Darker text */
+  }
+  
+  .input-container input,
+  .input-container select {
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px;
+  }
+  
+  .result p {
+    color: #28a745; /* Success color */
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .cur {
+    background-image: url('./assets/currency.png');
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Adjust height as needed */
+    border-radius: 8px;
+  }
